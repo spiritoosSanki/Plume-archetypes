@@ -46,6 +46,7 @@ To completly get rid of the database component:
 1. Remove the line `install(new GuiceQuerydslModule());` in the `ApplicationModule` class,
 2. Remove the package `db` in the project,
 3. Remove the dependencies `plume-db-querydsl` and `plume-db-querydsl-codegen` in the `pom.xml` file.
+4. Remove all `db.*` properties in `application.conf`
 
 Swagger
 -------
